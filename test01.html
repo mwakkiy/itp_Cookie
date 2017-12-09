@@ -1,0 +1,19 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+    </head>
+    <body>
+        <p>
+            ビーコン取得
+            <script>
+                var _ran = Math.floor(Math.random() * 999999999);
+                var imgObj = document.createElement("IMG");
+                imgObj.src = "http://studio-ponta.sakura.ne.jp/www/test/ITP_cookie/api.php?_r=" + _ran + "&rmx_client_id=631491&rmx_lineitem_id=4651783&rmx_creative_id=79514346";
+                document.body.appendChild(imgObj);
+            </script>
+        </p>
+        <p>
+            <a href="http://studio-ponta.sakura.ne.jp/www/test/ITP_cookie/redirect.php?001">リダイレクト</a>
+        </p>
+    </body>
+</html>
